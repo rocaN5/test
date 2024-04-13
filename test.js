@@ -1,4 +1,4 @@
-$.getScript('https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js', function() {
+$.getScript('/lib.js', function() {
     var downloadButton = $("<button>").attr("id", "downloadButton").text("Download Links as PDF").appendTo("body");
 
     $(document).on("click", "#downloadButton", function() {
